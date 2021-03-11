@@ -1,2 +1,1 @@
-# Stepik
-Online course training
+# Обучение на онлайн-платформе Stepik
