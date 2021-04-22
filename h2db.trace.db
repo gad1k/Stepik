@@ -1,0 +1,365 @@
+04-22 21:16:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('Andrei') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:17:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:18:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:21:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:23:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:24:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 21:25:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+insert into users (user_name) values ('tully') [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.table.Table.getColumn(Table.java:648)
+	at org.h2.command.Parser.parseColumn(Parser.java:856)
+	at org.h2.command.Parser.parseColumnList(Parser.java:840)
+	at org.h2.command.Parser.parseInsert(Parser.java:1040)
+	at org.h2.command.Parser.parsePrepared(Parser.java:401)
+	at org.h2.command.Parser.parse(Parser.java:305)
+	at org.h2.command.Parser.parse(Parser.java:277)
+	at org.h2.command.Parser.prepareCommand(Parser.java:242)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execUpdate(Executor.java:24)
+	at dbService.dao.UsersDAO.insertUser(UsersDAO.java:31)
+	at dbService.DBService.addUser(DBService.java:32)
+	at main.Main.main(Main.java:41)
+04-22 22:13:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Andrei' [42102-187]
+04-22 22:19:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Andrei' [42102-187]
+04-22 22:19:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Andrei' [42102-187]
+04-22 22:20:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Ruslan' [42102-187]
+04-22 22:21:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Ruslan' [42102-187]
+04-22 22:22:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Ruslan' [42102-187]
+04-22 22:24:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Таблица "USERS" не найдена
+Table "USERS" not found; SQL statement:
+select * from users where user_name='Ruslan' [42102-187]
+04-22 22:26:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+select * from users where user_name='Ruslan' [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:147)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.command.dml.Select.prepare(Select.java:880)
+	at org.h2.command.Parser.prepareCommand(Parser.java:247)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execQuery(Executor.java:23)
+	at dbService.dao.UsersDAO.getUserId(UsersDAO.java:16)
+	at dbService.DBService.getUserId(DBService.java:19)
+	at accounts.AccountService.checkLoggedUser(AccountService.java:23)
+	at servlets.SignInServlet.doPost(SignInServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:781)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1126)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:498)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:265)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:243)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:748)
+04-22 22:26:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+select * from users where user_name='Ruslan' [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:147)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.command.dml.Select.prepare(Select.java:880)
+	at org.h2.command.Parser.prepareCommand(Parser.java:247)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execQuery(Executor.java:23)
+	at dbService.dao.UsersDAO.getUserId(UsersDAO.java:16)
+	at dbService.DBService.getUserId(DBService.java:19)
+	at accounts.AccountService.checkLoggedUser(AccountService.java:23)
+	at servlets.SignInServlet.doPost(SignInServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:781)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1126)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:498)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:265)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:243)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:748)
+04-22 22:26:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+select * from users where user_name='Ruslan213' [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:147)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.command.dml.Select.prepare(Select.java:880)
+	at org.h2.command.Parser.prepareCommand(Parser.java:247)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execQuery(Executor.java:23)
+	at dbService.dao.UsersDAO.getUserId(UsersDAO.java:16)
+	at dbService.DBService.getUserId(DBService.java:19)
+	at accounts.AccountService.checkLoggedUser(AccountService.java:23)
+	at servlets.SignInServlet.doPost(SignInServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:781)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1126)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:498)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:265)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:243)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:748)
+04-22 22:27:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Столбец "USER_NAME" не найден
+Column "USER_NAME" not found; SQL statement:
+select * from users where user_name='Ruslan' [42122-187]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:345)
+	at org.h2.message.DbException.get(DbException.java:179)
+	at org.h2.message.DbException.get(DbException.java:155)
+	at org.h2.expression.ExpressionColumn.optimize(ExpressionColumn.java:147)
+	at org.h2.expression.Comparison.optimize(Comparison.java:178)
+	at org.h2.command.dml.Select.prepare(Select.java:880)
+	at org.h2.command.Parser.prepareCommand(Parser.java:247)
+	at org.h2.engine.Session.prepareLocal(Session.java:461)
+	at org.h2.engine.Session.prepareCommand(Session.java:403)
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1189)
+	at org.h2.jdbc.JdbcStatement.executeInternal(JdbcStatement.java:170)
+	at org.h2.jdbc.JdbcStatement.execute(JdbcStatement.java:158)
+	at dbService.executor.Executor.execQuery(Executor.java:23)
+	at dbService.dao.UsersDAO.getUserId(UsersDAO.java:16)
+	at dbService.DBService.getUserId(DBService.java:19)
+	at accounts.AccountService.checkLoggedUser(AccountService.java:23)
+	at servlets.SignInServlet.doPost(SignInServlet.java:24)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:781)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:221)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1126)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1060)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.HandlerList.handle(HandlerList.java:52)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:498)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:265)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:243)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:610)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:539)
+	at java.lang.Thread.run(Thread.java:748)
+04-22 22:29:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+04-22 22:29:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
+04-22 22:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Нет данных
+No data is available [2000-187]
