@@ -24,7 +24,7 @@ public class Main {
         context.addServlet(new ServletHolder(new SignInServlet(accountService)), "/signin");
 
         ResourceHandler resource_handler = new ResourceHandler();
-        resource_handler.setResourceBase("JavaWebApp/1.3 ORM/public_html");
+        resource_handler.setResourceBase("JavaWebApp/1.3 Database/public_html");
 
         HandlerList handlers = new HandlerList();
         handlers.setHandlers(new Handler[]{resource_handler, context});
