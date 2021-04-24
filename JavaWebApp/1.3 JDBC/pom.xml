@@ -66,6 +66,5 @@
             <artifactId>h2</artifactId>
             <version>${com.h2database.h2.version}</version>
         </dependency>
-
     </dependencies>
 </project>
